@@ -7,6 +7,7 @@
 //
 
 #import "YXViewController.h"
+#import "YXPeople.h"
 
 @interface YXViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [YXPeople sayHello];
 }
 
 - (void)didReceiveMemoryWarning
