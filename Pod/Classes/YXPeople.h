@@ -12,4 +12,6 @@
 
 +(void)sayHello;
 
++(void)sayHello1;
+
 @end

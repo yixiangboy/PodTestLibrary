@@ -11,7 +11,11 @@
 @implementation YXPeople
 
 +(void)sayHello{
-    NSLog(@"HELLO COCOAPODS");
+    NSLog(@"=HELLO COCOAPODS=");
+}
+
++(void)sayHello1{
+    NSLog(@"===hello cocoapods===");
 }
 
 @end
