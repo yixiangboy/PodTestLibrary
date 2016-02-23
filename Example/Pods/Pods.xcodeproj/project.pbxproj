@@ -129,6 +129,8 @@
 		D83677C54D2226C67886A525B0B46FBE /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7582733015B7D005A247EF5856A0D6 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D96D2775FA6AECD0F83A03E3B357935F /* SPTExampleGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 707C1B7180164DF6560719973AEC92C1 /* SPTExampleGroup.m */; };
 		D9826D759990C411D44776DFAF0705E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF01F310BCD4F2E114A0BB3796FAA47 /* Foundation.framework */; };
+		DAA35E931C7C0FD1002D7FAA /* YXPeople.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA35E911C7C0FD1002D7FAA /* YXPeople.h */; settings = {ASSET_TAGS = (); }; };
+		DAA35E941C7C0FD1002D7FAA /* YXPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA35E921C7C0FD1002D7FAA /* YXPeople.m */; settings = {ASSET_TAGS = (); }; };
 		DACA9FB53DA18585874417D34813DFAF /* SPTCallSite.h in Headers */ = {isa = PBXBuildFile; fileRef = F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB30F82FB1BE083D9471B965FB500CA2 /* EXPMatchers+conformTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 222277628576E6CB279473688BA88F01 /* EXPMatchers+conformTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DD90F1DDA3E2D77932F7081A3607F53B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = C208752E77DFA06CBC28AD496B28B835 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -382,6 +384,8 @@
 		D49148BC7AE09E55B08BF50947940B20 /* Pods-podTestLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-podTestLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4EF39D56E8A55D649F9810E362FA318 /* EXPMatchers+beCloseTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beCloseTo.m"; path = "Expecta/Matchers/EXPMatchers+beCloseTo.m"; sourceTree = "<group>"; };
 		DA722B2C884C44CA27701BF91B627A1F /* Pods-podTestLibrary_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-podTestLibrary_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DAA35E911C7C0FD1002D7FAA /* YXPeople.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXPeople.h; sourceTree = "<group>"; };
+		DAA35E921C7C0FD1002D7FAA /* YXPeople.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXPeople.m; sourceTree = "<group>"; };
 		DACE406B2E53BE18445F22E26993E5B9 /* SpectaDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SpectaDSL.m; path = Specta/Specta/SpectaDSL.m; sourceTree = "<group>"; };
 		DB2A5E1B7901732AA8E184165B0E7EBF /* podTestLibrary-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "podTestLibrary-umbrella.h"; sourceTree = "<group>"; };
 		DF4BD2050ABE1205D1B1A164803A18DA /* EXPMatchers+beKindOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beKindOf.h"; path = "Expecta/Matchers/EXPMatchers+beKindOf.h"; sourceTree = "<group>"; };
@@ -482,6 +486,8 @@
 			isa = PBXGroup;
 			children = (
 				CAE9C8A129ED757DF937B0A2A39DEA95 /* ReplaceMe.m */,
+				DAA35E911C7C0FD1002D7FAA /* YXPeople.h */,
+				DAA35E921C7C0FD1002D7FAA /* YXPeople.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -874,6 +880,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B5B7495707BF7133B9FB3F834045611 /* EXPBlockDefinedMatcher.h in Headers */,
+				DAA35E931C7C0FD1002D7FAA /* YXPeople.h in Headers */,
 				5EA7043FE10E75D02F3C3052AF8B8318 /* EXPDefines.h in Headers */,
 				2F427490ACABC4408D57CC0592276678 /* EXPDoubleTuple.h in Headers */,
 				837B593D7C1D01B4EA400247309D6AB0 /* Expecta-umbrella.h in Headers */,
@@ -1238,6 +1245,7 @@
 				4BBCBB9D8EF0B241A4A4FE4982985481 /* ExpectaSupport.m in Sources */,
 				805E425BBEF7A6133E32E1D30A073010 /* EXPExpect.m in Sources */,
 				CE3F4ECBB0BC095577D66AE50C8E604C /* EXPFloatTuple.m in Sources */,
+				DAA35E941C7C0FD1002D7FAA /* YXPeople.m in Sources */,
 				201BF9C605852822CA5A65ADE282A310 /* EXPMatcherHelpers.m in Sources */,
 				BA12B131F10BCE3BE6E9A02FC908FE9D /* EXPMatchers+beCloseTo.m in Sources */,
 				17572374B2AE183C6347C41E8DF8E579 /* EXPMatchers+beFalsy.m in Sources */,
